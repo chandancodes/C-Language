@@ -19,6 +19,7 @@ int main(){
             scanf("%d", &b);
 
             printf("The value of a+b is %d \n", a+b);
+            break;
         }
 
         case ('-'):
@@ -31,6 +32,7 @@ int main(){
             scanf("%d", &b);
 
             printf("The value of a-b is %d \n", a-b);
+            break;
         }
 
         case ('*'):
@@ -42,7 +44,8 @@ int main(){
             printf("Enter the value of b \n");
             scanf("%d", &b);
 
-            printf("The value of a*b is %d \n", a*b);        
+            printf("The value of a*b is %d \n", a*b);   
+            break;     
         }
 
         case ('/'):
@@ -55,6 +58,7 @@ int main(){
             scanf("%d", &b);
 
             printf("The value of a/b is %d \n", a/b);
+            break;
         }
     }
 
