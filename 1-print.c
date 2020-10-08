@@ -3,6 +3,7 @@
 # include<stdio.h>
 
 int main(){
-    printf("Hello World");
+    char name[] = "Hello World";
+    printf("%s", name);
 return 0;
 }
