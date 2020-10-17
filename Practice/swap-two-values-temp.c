@@ -9,5 +9,7 @@ int main(){
     temp=num1;
     num1=num2;
     num2=temp;
+    printf("The value of num1 after swap: %d \n", num1);
+    printf("The value of num2 after swap: %d \n", num2);
 return 0;
 }
